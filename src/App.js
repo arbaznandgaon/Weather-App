@@ -32,21 +32,21 @@ function App() {
         <p className="pl-8 pt-12">{data.name}</p> 
        
       </div>
-      <div className="text-9xl font-bold text-white">
-        <p className="pl-12 pt-8"> {data.main? <h1>{data.main.temp}°F</h1>: null}</p>
+      <div className="text-7xl font-bold text-yellow-300">
+        <p className="pl-12 pt-8"> {data.main?  <h1>{data.main.temp}°F</h1>: null}</p>
       </div>
       {/* <div className="flex justify-end text-white text-5xl font-minibold rotate-"> 
         <p>Clouds</p>
       </div> */}
      </div>
-     <div className="flex mt-[5rem] space-x-16 pt-2 ml-[33rm]  px-4  rounded-xl w-[auto]  h-28 bg-white/20
+     <div className="flex mt-[10rem] space-x-16 pt-2 ml-[33rm]  px-4  rounded-xl w-[auto]  h-28 bg-white/20
      text-white font-bold">
       <div className="text-3xl">
      <p className="ml-4">  {data.weather ? <p>{data.weather[0].main}</p>: null}</p>
         <a className="text-2xl font-semibold">Feels Like</a>
       </div>
       <div className="text-3xl">
-       {data.main ? <p>{data.main.feels_like}</p>: null}
+       {data.main ? <p>{data.main.humidity}%</p>: null}
         <a className="text-2xl font-semibold">Humidity</a>
       </div>
       <div className="text-3xl">
