@@ -29,7 +29,7 @@ function App() {
        </input>
      <div>
      <div className="text-7xl font-black text-red-400 flex">
-        <p className="pl-8 pt-12">{data.name}</p> 
+        <p className="pl-8 pt-12">{data.name} </p> 
        
       </div>
       <div className="text-7xl font-bold text-yellow-300">
