@@ -33,7 +33,7 @@ function App() {
        
       </div>
       <div className="text-7xl font-bold text-yellow-300">
-        <p className="pl-12 pt-8"> {data.main?  <h1>{data.main.temp}°F</h1>: null}</p>
+        <p className="pl-12 pt-8 "> {data.main?  <h1>{data.main.temp}°F</h1>: null}</p>
       </div>
       {/* <div className="flex justify-end text-white text-5xl font-minibold rotate-"> 
         <p>Clouds</p>
