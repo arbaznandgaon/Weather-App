@@ -42,7 +42,7 @@ function App() {
      <div className="flex mt-[10rem] space-x-16 pt-2 ml-[33rm]  px-4  rounded-xl w-[auto]  h-28 bg-white/20
      text-white font-bold">
       <div className="text-3xl">
-     <p className="ml-4 ">  {data.weather ? <p>{data.weather[0].main}</p>: null}</p>
+     <p className="ml-4">  {data.weather ? <p>{data.weather[0].main}</p>: null}</p>
         <a className="text-2xl font-semibold">Feels Like</a>
       </div>
       <div className="text-3xl">
