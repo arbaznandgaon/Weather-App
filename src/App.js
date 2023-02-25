@@ -39,6 +39,7 @@ function App() {
         <p>Clouds</p>
       </div> */}
      </div>
+     
      <div className="flex mt-[10rem] space-x-16 pt-2 ml-[33rm]  px-4  rounded-xl w-[auto]  h-28 bg-white/20
      text-white font-bold">
       <div className="text-3xl" >
