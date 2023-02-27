@@ -28,7 +28,7 @@ function App() {
         placeholder="Enter City ">
        </input>
      <div>
-     <div className="text-7xl font-black text-red-400 flex" >
+     <div className="text-7xl font-black text-red-400 flex">
         <p className="pl-8 pt-12">{data.name} </p> 
        
       </div>
