@@ -18,7 +18,7 @@ function App() {
   }
   
   
-  return (
+   return (
     <div className="App px-4 h-screen bg-cover bg-[url('https://res.cloudinary.com/practicaldev/image/fetch/s--vqF9LVka--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://images.unsplash.com/photo-1545193544-312983719627%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1650%26q%3D80')]">
      <input
         value={location}
