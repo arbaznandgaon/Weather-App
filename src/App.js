@@ -11,7 +11,7 @@ function App() {
  if(event.key === 'Enter'){
   axios.get(MyAPI).then((responce)=>{
     setData(responce.data)
-    console.log(responce.data)
+    console.log(responce.data) 
   })
   setLocation("")
  }
